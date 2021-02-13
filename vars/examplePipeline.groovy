@@ -1,4 +1,4 @@
-import com.example
+import com.example.ExampleClass
 
 def call() {
     stage('Log Messages') {
