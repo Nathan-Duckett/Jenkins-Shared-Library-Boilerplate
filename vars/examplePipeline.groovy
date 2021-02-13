@@ -1,4 +1,4 @@
-import com.github.nathan-duckett
+import com.example
 
 def call() {
     stage('Log Messages') {
