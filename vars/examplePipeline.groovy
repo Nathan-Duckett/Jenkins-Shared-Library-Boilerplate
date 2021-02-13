@@ -1,8 +1,8 @@
 import com.example.ExampleClass
 
 def call() {
-    stage('Log Messages') {
-        steps {
+    node("") {
+        stage('Log Messages') {
             echo "Hello from examplePipeline"
             ExampleClass.printMessageToJenkins(this)
         }
